@@ -17,27 +17,6 @@ match_ctr=0
 
 pg_no=1
 
-# read latest csv
-# csv_file_path = "page_3.csv"
-
-# rows1=[]
-# rows2=[]
-
-# # Open the CSV file in read mode
-# with open(csv_file_path, mode='r') as file:
-#     # Create a CSV reader object
-#     csv_reader = csv.reader(file)
-    
-#     # Iterate over each row in the CSV file
-#     for row in csv_reader:
-#         # Each row is a list containing the values in that row
-#         if(ctr!=0):
-#             rows1.append(row)
-#         ctr+=1
-#         if(ctr==6):
-#             break
-
-# print(rows1)
 
 while(True):
 
@@ -66,23 +45,6 @@ while(True):
             # print('//////',cols)
             writer.writerow(cols)
 
-        #     if cols==rows1[match_ctr]:
-        #         match_ctr+=1
-        #         print(match_ctr)
-
-        #     if match_ctr==5:
-        #         break
-
-        #     if(match_ctr==0):
-        #         writer.writerow(cols)
-        #     else:
-        #         rows2.append(cols)
-
-        # if(match_ctr==5):
-        #     break
-        # else:
-        #     for row in rows2:
-        #         writer.writerow(row)
 
         pg_no+=1
 

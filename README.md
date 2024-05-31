@@ -1,3 +1,4 @@
+```markdown
 # Paani-Scraping
 
 This repository contains the code and setup instructions for various web scraping tasks related to environmental data.
@@ -28,54 +29,61 @@ This repository contains the code and setup instructions for various web scrapin
    ```sh
    git clone https://github.com/yourusername/paani-scraping.git
    cd paani-scraping
-Install Dependencies
+   ```
 
-sh
-Copy code
-pip install -r requirements.txt
-Download and Place Chromium Driver
+2. **Install Dependencies**
+   ```sh
+   pip install -r requirements.txt
+   ```
 
-Download the appropriate Chromium driver for your operating system from Chromium Downloads.
-Place the driver executable in the directory containing your main.py files.
-Running the Scraping Tasks
-Each respective folder contains a main.py file. To run a scraping task, navigate to the folder and execute the main.py file.
+3. **Download and Place Chromium Driver**
+   
+   Download the appropriate Chromium driver for your operating system from [Chromium Downloads](https://chromium.googlesource.com/chromium/src/+/refs/heads/main/docs/chromedriver.md).
 
-Consent Orders
+   Place the driver executable in the directory containing your `main.py` files.
 
-sh
-Copy code
-cd consent-orders
-python3 main.py
-CPCB Bangalore Industries
+### Running the Scraping Tasks
 
-sh
-Copy code
-cd cpcb-bangalore-industries
-python3 main.py
-KSPCB Lake Data
+Each respective folder contains a `main.py` file. To run a scraping task, navigate to the folder and execute the `main.py` file.
 
-sh
-Copy code
-cd kspcb-lake
-python3 main.py
-KSPCB River Data
+#### Consent Orders
+   ```sh
+   cd consent-orders
+   python3 main.py
+   ```
 
-sh
-Copy code
-cd kspcb-river
-python3 main.py
-Additional Notes
+#### CPCB Bangalore Industries
+   ```sh
+   cd cpcb-bangalore-industries
+   python3 main.py
+   ```
 
-Chromium Driver: Ensure the Chromium driver version matches the version of the Chromium browser installed on your machine.
-Error Handling: Scripts include basic error handling, but additional logging and exception management can be implemented for robustness.
-Configuration: Modify the configuration settings in the respective main.py files to match any changes in the website structure or scraping requirements.
-Contribution
+#### KSPCB Lake Data
+   ```sh
+   cd kspcb-lake
+   python3 main.py
+   ```
+
+#### KSPCB River Data
+   ```sh
+   cd kspcb-river
+   python3 main.py
+   ```
+
+### Additional Notes
+
+- **Chromium Driver**: Ensure the Chromium driver version matches the version of the Chromium browser installed on your machine.
+- **Error Handling**: Scripts include basic error handling, but additional logging and exception management can be implemented for robustness.
+- **Configuration**: Modify the configuration settings in the respective `main.py` files to match any changes in the website structure or scraping requirements.
+
+## Contribution
 
 Contributions are welcome! Please fork the repository and create a pull request with your changes. For major changes, open an issue first to discuss what you would like to change.
 
-License
+## License
 
 This project is licensed under the MIT License. See the LICENSE file for details.
+```
 
 
 

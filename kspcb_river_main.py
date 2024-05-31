@@ -46,12 +46,6 @@ with open(f'./data/kspcb_river_scraped.csv', 'w', newline='') as csv_file:
             writer.writerow(cols)
         
 
-
-    
-
-
-
-
 time.sleep(0)
 
 driver.quit()

@@ -1,5 +1,5 @@
 
-Paani-Scraping
+# Paani-Scraping
 
 This repository contains the code and setup instructions for various web scraping tasks related to environmental data.
 
@@ -44,30 +44,27 @@ This repository contains the code and setup instructions for various web scrapin
 
 ### Running the Scraping Tasks
 
-Each respective folder contains a `main.py` file. To run a scraping task, navigate to the folder and execute the `main.py` file.
+Each task is associated with a `main.py` file. To run a scraping task, execute the respective `main.py` file in a local directory. Ensure the chromium driver is present in it and have a data directory created inside the directory too.
 
 #### Consent Orders
    ```sh
-   cd consent-orders
-   python3 main.py
+   python3 consent_main.py
    ```
 
 #### CPCB Bangalore Industries
    ```sh
-   cd cpcb-bangalore-industries
-   python3 main.py
+   python3 cpcb_main.py
+   python3 cpcb_main2.py
    ```
 
 #### KSPCB Lake Data
    ```sh
-   cd kspcb-lake
-   python3 main.py
+   python3 kspcb_lake_main.py
    ```
 
 #### KSPCB River Data
    ```sh
-   cd kspcb-river
-   python3 main.py
+   python3 kspcb_river_main.py
    ```
 
 ### Additional Notes
@@ -76,13 +73,6 @@ Each respective folder contains a `main.py` file. To run a scraping task, naviga
 - **Error Handling**: Scripts include basic error handling, but additional logging and exception management can be implemented for robustness.
 - **Configuration**: Modify the configuration settings in the respective `main.py` files to match any changes in the website structure or scraping requirements.
 
-## Contribution
-
-Contributions are welcome! Please fork the repository and create a pull request with your changes. For major changes, open an issue first to discuss what you would like to change.
-
-## License
-
-This project is licensed under the MIT License. See the LICENSE file for details.
 
 
 

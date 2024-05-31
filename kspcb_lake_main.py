@@ -52,12 +52,6 @@ with open(f'./data/kpcb_scraped.csv', 'w', newline='') as csv_file:
             cols = [col.text.strip() for col in cols]    
             print(cols)   
             writer.writerow(cols)
-        
-
-
-    
-
-
 
 
 time.sleep(0)
